@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <meta name="viewport" content="width=device-width" />
+        <meta name="author" content="plutonium.bmb" />
+        <link rel="stylesheet" href="../styles-notes.css" />
+        <title>CS50 Notes</title>
+    </head>
+    <body>
+        <main>
+            <h1>CS50 notes (cuz why not)</h1>
+            
+            <nav>
+                <h2>Fast Travel</h2>
+                <ul>
+                    <!-- maybe change this into an ordered list but th start is from 0?-->
+                    <li>
+                        <a href="#Week 0">
+                            Week 0
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Week 1">
+                            Week 1
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <article id="Week 0">
+                <hr />
+                <br />
+                <hr />
+                <h2>Week 0</h2>
+                <p><i>
+                    Last updated: <time datetime="2024-08-1">1/8/2024</time>
+                </i></p>
+
+                <h3>Goals</h3>
+                <p>
+                    <ul>
+                        <li>Learn about problem solving</li>
+                        <li>Become familiar with computer science</li>
+                    </ul>
+                </p>
+
+                <h3>Terminology</h3>
+                <dl>
+                    <dt><b>
+                        computer science
+                    </b></dt> 
+                    <dd>
+                        study of information; problem solving.
+                    </dd>
+                    <dt><b>
+                        computational thinking
+                    </b></dt> 
+                    <dd>
+                        application of ideas in a very methodical way; kind of like a computer.
+                    </dd>
+                    <dt><b>
+                        base-2
+                    </b></dt> 
+                    <dd>
+                        2-digit representation of a number; used by computers (0 and 1).
+                    </dd>
+                    <dt><b>
+                        bit
+                    </b></dt> 
+                    <dd>
+                        a single binary digit representing a zero or one
+                    </dd>
+                    <dt><b>
+                        byte
+                    </b></dt> 
+                    <dd>
+                        8 bits (255 states).
+                    </dd>
+                    <dt><b>
+                        <abbr title="American Standard Code for Information Interchange">ASCII</abbr>
+                    </b></dt> 
+                    <dd>
+                        a system for computers to recognize letters through binary.
+                    </dd>
+                    <dt><b>
+                        Unicode
+                    </b></dt> 
+                    <dd>
+                        a superset of ASCII and an international standard that captures characters and pictograms of many languages
+                    </dd>
+                    <dt><b>
+                        Unicode code point
+                    </b></dt> 
+                    <dd>
+                        a system used to represent unicode symbols
+                    </dd>
+                    <dt><b>
+                        Algorithm
+                    </b></dt> 
+                    <dd>
+                        step-by-step instructions for solving problems
+                    </dd>
+                    <dt><b>
+                        Code
+                    </b></dt> 
+                    <dd>
+                        implementation of an algorithm in a computer Context
+                    </dd>
+                    <dt><b>
+                        Pseudocode 
+                    </b></dt>
+                    <dd>
+                        a precise step-by-step algorithm that can be implemented into code
+                    </dd>
+                    <dt><b>
+                        Boolean Question
+                    </b></dt>
+                    <dd>
+                        Essentially a question with only and only two possible answers; Used in code.
+                    </dd>
+                    <dt><b>
+                        Chatbot
+                    </b></dt>
+                    <dd>
+                        Interactive text-based programs that is able to reply to prompts in a convincing manner.
+                    </dd>
+                    <dt><b>
+                        <abbr title="large language models">LLM</abbr>
+                    </b></dt>
+                    <dd>
+                        A software implementation of code that takes in lots of language information and then infers what questions a human might ask.
+                    </dd>
+                    <dt>
+                        Scratch
+                    </dt>
+                    <dd>
+                        A visual programming language abstracting code using blocks.
+                    </dd>
+                    <dt>
+                        return value
+                    </dt>
+                    <dd>
+                        a value in code taht can be handed back from a function.
+                    </dd>
+                    <dt>
+
+                    </dt>
+                    <dd>
+
+                    </dd>
+                </dl>
+
+                <hr />
+
+                <h3>Problem Solving</h3>
+                <p>
+                    Input -> Algorithm -> Output
+                </p>
+
+                <h3>Binary</h3>
+                <p>
+                   All code and information is represented in binary (base-2) inside a computer which is an abstraction of the prescence and abscence of electricity (On - 1, Off - 2). This is facilitated by transistors (tiny little switches). <br />
+                    <em>important note!! people do not count all zero bits as a state (ex. 2 bit machine in 00 is not a state); thus, there is 2<sup>n</sup>-1 number of states that bits can be in a system (instead of 4 states in a 2 bit system, there is only 3)</em>
+                </p>
+
+                <h3>ASCII</h3>
+                <p>
+                    A number (in binary) is mapped to a specific letter (typically in 8 bits) in a system known as ASCII.
+                </p>
+
+                <h3>Unicode</h3>
+                <p>
+                    8 bytes are not enough for all of the characters used for the world's languages. Unicode is a superset that solves this problem by using 16, 24, or 32 bits for each character (4-billion possible characters). This system is represented through "Unicode code point" that utilizes hexadecimal (base-16) [ex. U+1F602]. <em>Variations in emojis utilizes multiple combinations of Unicode code points to solve the problem (like with the google keyboard emoji combinations).</em>
+                </p>
+
+                <h3>Color</h3>
+                <p>
+                    Different amounts of red, green, and blue are used to represent a color in a computer. These are also the same three colors present in a pixel and controlled by a computer. 3 values (in binary) are used to represent the values of each of these 3 colors. 
+                </p>
+
+                <h3>Representation</h3>
+                <p>
+                    <strong>Notice that there is no difference in representing characters and colors, it's all just 0s and 1s. As such, different programs interpret the binary differently. *Context Matters*</strong><br /><br />
+                    
+                    Various mediums are really just represented by a series of 0s and 1s
+                </p>
+
+                <h3>Algorithms</h3>
+                <p>
+                    A series of steps to used to solve a problem. Algorithms must be optimized for efficiency in order to be able to deal with large data sets (like picking the center of a set with a target then choosing the center of one of its subsets that contains the target and repeating). 
+                </p>
+
+                <h3>Pseudocode</h3>
+                <p>
+                    It is important to be very specific with each step. You need to anticipate outcomes that might happen in order to minimize crashes.
+                    These are comprised of functions, loops, and conditionals.
+                </p>
+
+                <h3>AI</h3>
+                <p>
+                    Chatbots cannot create the answer for every anticipated question using if statements due to the complex nature of language. The solution used for this are LLMs, giving a general purpose and letting it figure out and with pertubations to the output (although this is prone to hallucinations). <br /><a href="cs50.ai">CS50 Duck</a> will be used for the course as an AI based tutor(no other generative ai will be used/allowed). 
+                </p>
+
+                <h3>Scratch</h3>
+                <p>
+                    Scratch is a visual programming language that will be utilized for this week. It has code abstracted as blocks, allowing people to learn programming without the distractions of syntax. It has a cartesian plane for display with 0,0 as the center and 240,180 as maximum relative values. White ovals inside functions are called parameters/argument which customizes the output of a function.
+
+                    <br /><br />
+
+                    <em></em>
+                    <em></em>
+                </p>
+                <h3>Programming Advice</h3>
+                <p>
+                    <ul>
+                        <li>
+                            Splitting a large project into multiple managable subsets allows for ease of implementing and programming. Taking baby steps towards the goal, essentially. 
+                        </li>
+                        <li>
+                            Simplifying using abstracting allows us to focus on what matters and not the implementation details (functions). 
+                        </li>
+                        <li>
+                            Reduce stuff you want to intuitive ideas into just basic building blocks to guide with implementing these ideas in code.
+                        </li>
+                        <li>
+                            Take incremental steps. Don't implement everything from the get go. Have multiple versions for each major update.
+                        </li>
+                        <li>
+                            Repeating yourself in programming is not good design. Use loops instead.
+                        </li>
+                    </ul>
+                </p>
+
+                <a href="https://cs50.harvard.edu/x/2024/psets/0/scratch/">
+                    <h3 class="done">Problem Set</h3>
+                </a>
+                
+            </article>
+
+
+
+            <article id="Week 1">
+                <hr />
+                <br />
+                <hr />
+                <h2>Week 1</h2>
+
+                <h3>Goals</h3>
+                    <ul>
+                        <li>
+
+                        </li>
+                    </ul>
+
+                <h3>Terminology</h3>
+                <dl>
+                    <dt>
+                        <!-- word/term -->
+                    </dt> 
+                        <dd>
+                            <!-- definition -->
+                        </dd>
+                </dl>
+
+                <hr />                          
+
+                <h3><!-- section title--></h3>
+                <p>
+                    <!-- discussion-->
+                </p>
+
+                <a href="https://cs50.harvard.edu/x/2024/psets/1/">
+                    <h3 class="incomplete">Problem Set</h3>
+                </a>
+            
+            </article>
+        </main>
+    </body>
+</html>

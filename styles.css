@@ -1,0 +1,19 @@
+body {
+    background:  #FFF5EA; 
+    color: rgb(36, 36, 36);
+    text-wrap: wrap;
+    font-size: 12pt;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    max-width: 650px;
+    text-align: justify;
+}
+
+h1 {
+    border-top: 3px solid rgb(36, 36, 36);
+    border-bottom: 3px solid rgb(36, 36, 36);
+    padding: 3px 0;
+}

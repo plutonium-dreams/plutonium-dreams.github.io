@@ -1,0 +1,5 @@
+1. add a favicon metadata
+2. create an address element for contacts!!!
+3. fix accessibility issues?? (maybe later nalang after designing)
+4. validate your website here https://validator.w3.org/
+5. formalize css layout

@@ -1,0 +1,13 @@
+@import "../styles.css";
+
+dt {
+    font-weight: bold;
+}
+
+.done {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
