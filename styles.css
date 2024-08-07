@@ -15,5 +15,12 @@ article {
 h1 {
     border-top: 3px solid rgb(36, 36, 36);
     border-bottom: 3px solid rgb(36, 36, 36);
-    padding: 3px 0;
+    padding: px 0;
+}
+
+blockquote {
+    background-color: rgb(36, 36, 36);
+    color: #FFF5EA;
+    border-radius: 10px;
+    padding: 1% 3%;
 }
