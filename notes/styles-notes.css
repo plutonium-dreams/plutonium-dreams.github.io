@@ -1,5 +1,11 @@
 @import "../styles.css";
 
+@media screen and (max-width: 768px){
+    object {
+        width: 100%;
+    }
+}
+
 dt {
     font-weight: bold;
 }
